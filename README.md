@@ -1,4 +1,5 @@
-# drupalbox [www.drupalbox.org](http://www.drupalbox.org)
+# [drupalbox](http://www.drupalbox.org) 
+
 组件：  
 1. centos7
 2. oneinstack
@@ -39,3 +40,5 @@ mysql: `sudo service php-fpm {start|stop|restart|reload|status}`
 7.  创建虚拟主机，并将目录指向 /vagrant/yourwebname 如果你用的drupal8，要按照/usr/local/nginx/conf/vhost/drupal8demo.com.conf修改
 8.  然后你就可以在windows或mac本地的这个文件夹下的yourwebname文件夹内建立你的网站，并可以用本地windows或mac的IDE去编辑
 9.  drupal console1.0相较于老版本使用略有不同，需要进入网站根目录执行composer require drupal/console:~1.0 --prefer-dist --optimize-autoloader，并且速度比老版本满了很多，受不了其速度的，可以将其卸载并装老版本（不推荐这样做）
+
+
