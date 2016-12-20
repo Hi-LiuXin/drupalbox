@@ -1,17 +1,32 @@
 # [drupalbox](http://www.drupalbox.org) 
 
-组件：  
-1. centos7
-2. oneinstack
-3. nginx
-4. php7
-5. opcode
-6. redis
-7. memcached
-8. phpmyadmin
-9. mariadb10
-10. drush8
-11. drupal console1.0.0-rc11
+Drupalbox做了哪些事情：  
+1. 安装oneinstack  
+2. 调整php.ini 注释diable_function  
+3. 修改etc-opcache.ini 调整opcache.save_comments=1  
+4. 调整nginx php /vagrant目录 用户与用户组为vagrant，从而避免drupal安装模块时的ftp权限问题 
+5. 安装drush (phar方式安装)  
+6. 安装drupal console（phar方式安装）  
+7. 安装composer  
+8. 添加drupal8网站配置实例 usr/local/nginx/conf/vhost/  drupal8demo.com.conf  
+9. 调整mysql外网登录权限和centos防火墙配置，让你可以在虚拟机外通过mysql客户端连接mysql 
+
+
+
+
+
+组件(drupalbox1.1)：  
+1. centos 7.2  
+2. oneinstack  
+3. nginx 1.10.2  
+4. php 7.1  
+5. opcode  
+6. redis  
+7. memcached  
+8. phpmyadmin  
+9. mariadb 10.1  
+10. drush 8.1.8  
+11. drupal console 1.0.0-rc11 
 
 
 
