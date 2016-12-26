@@ -1,6 +1,6 @@
 # [drupalbox](http://www.drupalbox.org) 　[下载](https://pan.baidu.com/s/1hsfYFvI#list/path=%2F)
 
-提醒：vagrant1.9.1有一个bug，配置private或public network 后，虚拟机内ip addr查不到ip地址，自然不能主机hosts域名映射	或用ftp、winscp连接  
+提醒：有些版本的virtualbox(比如5.1.12)有一个bug，可能出现配置private或public network 后，虚拟机内ip addr查不到ip地址，hosts域名映射失败，不能用ftp、winscp连接  
 解决方案：vagrant ssh进入虚拟机后，执行:sudo service network restart
 
 Drupalbox做了哪些事情：  
