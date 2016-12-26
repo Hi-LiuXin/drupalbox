@@ -1,5 +1,8 @@
 # [drupalbox](http://www.drupalbox.org) 　[下载](https://pan.baidu.com/s/1hsfYFvI#list/path=%2F)
 
+提醒：vagrant1.9.1有一个bug，配置private或public network 后，虚拟机内ip addr查不到ip地址，自然不能主机hosts域名映射	或用ftp、winscp连接  
+解决方案：vagrant ssh进入虚拟机后，执行:sudo service network restart
+
 Drupalbox做了哪些事情：  
 1. 安装oneinstack  
 2. 调整php.ini 注释diable_function  
