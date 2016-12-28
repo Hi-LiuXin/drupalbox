@@ -39,7 +39,7 @@ Drupalbox做了哪些事情：
 - Centos------》用户名：root 密码：vagrant  
 - mysql-------》用户名：root 密码：vagrant  
 
-oneinstack控制目录：/onenstack  
+oneinstack控制目录：/oneinstack  
 
 服务管理  
 nginx: `sudo service nginx {start|stop|status|restart|reload|configtest}`  
