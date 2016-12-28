@@ -39,7 +39,7 @@ Drupalbox做了哪些事情：
 - Centos------》用户名：root 密码：vagrant  
 - mysql-------》用户名：root 密码：vagrant  
 
-oneinstack控制目录：/oninstack  
+oneinstack控制目录：/onenstack  
 
 服务管理  
 nginx: `sudo service nginx {start|stop|status|restart|reload|configtest}`  
@@ -53,7 +53,7 @@ mysql: `sudo service php-fpm {start|stop|restart|reload|status}`
 2.  新建文件夹,并打开命令行进入此文件夹
 3.  `vagrant box init <name>`
 4.  编辑vagrantfile
-5.  config.vm.network "private_network", ip: "192.168.88.0-255" 最后一位随便填个数字编辑私有网络，作用是只限主机可以访问   
+5.  config.vm.network "private_network", ip: "192.168.33.0-255" 最后一位随便填个数字编辑私有网络，作用是只限主机可以访问   
 6.  config.vm.network "public_network", ip: "192.168.31.31" 这个网络配置作用是局域网内其他用户可以访问，其三位是路由器的网段，小米为192.168.31 Dlink为192.168.0 tplink...
 7.  创建虚拟主机，并将目录指向 /vagrant/yourwebname 如果你用的drupal8，要按照/usr/local/nginx/conf/vhost/drupal8demo.com.conf修改
 8.  然后你就可以在windows或mac本地的这个文件夹下的yourwebname文件夹内建立你的网站，并可以用本地windows或mac的IDE去编辑
