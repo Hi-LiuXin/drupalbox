@@ -14,7 +14,7 @@ Drupalbox做了哪些事情：
 8. 添加drupal8网站配置实例 usr/local/nginx/conf/vhost/  drupal8demo.com.conf  
 9. 调整mysql外网登录权限和centos防火墙配置，让你可以在虚拟机外通过mysql客户端连接mysql 
 
-**# 注意：已经做好的网站上传到drupalbox,假如界面显示错乱，要修改sites/default目录极其所有子目录和文件的权限设置为777，settings.php除外（设为555） #**
+**# 注意：已经做好的网站上传到drupalbox,假如界面显示错乱，要修改sites/default目录极其所有子目录和文件的权限设置为555，settings.php除外（设为444） #**
 
 
 
